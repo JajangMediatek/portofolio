@@ -1033,3 +1033,15 @@ span {
     font-size: 2rem;
     color: #333;
 }
+
+@media (max-width: 1024px) {
+    .project .project-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 kolom untuk tablet */
+    }
+}
+
+@media (max-width: 768px) {
+    .project .project-container {
+        grid-template-columns: repeat(1, 1fr); /* 1 kolom untuk HP */
+    }
+}
